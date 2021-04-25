@@ -36,7 +36,7 @@ To be able to get all the information from one place, we have developed Covibot,
 </ul>
 
 ## Technologies
-We have used pytorch to train the chatbot<br>
+We have used pytorch to create and train the model for the chatbot<br>
 We have done web scraping using beautiful soup and urllib to get the beds availibility and covid-19 status data	
 
 
