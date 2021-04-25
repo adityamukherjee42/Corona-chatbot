@@ -38,10 +38,8 @@ output_size = data["output_size"]
 all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
-pickle_in=open("net.pkl","rb")
-NeuralNet=pickle.load(pickle_in)
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
-model.load_state_dict(model_state)
+model.load_state_dict(model_state, map_location=torch.device('cpu')))
 model.eval()
 
 bot_name = "Covibot"
