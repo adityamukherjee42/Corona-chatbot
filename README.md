@@ -11,7 +11,8 @@
   <a href="https://github.com/asityamukherjee42"> **Aditya Mukherjee** </a>
   
   <a href="https://github.com/MEETDESAI2509"> **Meet Desai** </a>
-</di>
+</div>
+
 ## Table of contents
 * [The need for information in current situation](#need-in-current-situation)
 * [COVIBOT](#Covibot)
@@ -32,6 +33,7 @@ To be able to get all the information from one place, we have developed Covibot,
 <li>Get the current bed availibility in your city</li>
 <li>Get a link of a twitter search wherein you can get tweets about information regarding availibility of beds,medicines and oxygen</li>
 <li>Get the current COVID-19 status in your city</li>
+</ul>
 
 ## Technologies
 We have used pytorch to train the chatbot<br>
