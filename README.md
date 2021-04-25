@@ -11,7 +11,7 @@
   <a href="https://github.com/asityamukherjee42"> **Aditya Mukherjee** </a>
   
   <a href="https://github.com/MEETDESAI2509"> **Meet Desai** </a>
-
+<div align='left'>
 ## Table of contents
 * [The need for information in current situation](#need-in-current-situation)
 * [COVIBOT](#Covibot)
@@ -45,3 +45,4 @@ Go to the directory where the project is present
 ```
 $ streamlit run main.py
 ```
+</div>
