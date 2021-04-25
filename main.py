@@ -39,7 +39,7 @@ all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
-model.load_state_dict(model_state, map_location=torch.device('cpu')))
+model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Covibot"
