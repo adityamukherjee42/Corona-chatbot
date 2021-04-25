@@ -13,12 +13,12 @@
   <a href="https://github.com/MEETDESAI2509"> **Meet Desai** </a>
 
 ## Table of contents
-* [The need for information in current situation](#need-info)
-* [COVIBOT](#covibot)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [The need for information in current situation](#need-in-current-situation)
+* [COVIBOT](#Covibot)
+* [Technologies](#Technologies)
+* [Setup](#Setup)
 
-## Need info
+## Need in current situation
 As we are in a precaurious situation, wherein at least most of us has witnessed or experienced the difficulties due to the pandemic, it is very important to get all the information we can.<br>
 Someone might need to know basic information such as What are the symptoms of coronavirus? What precautions to follow? etc. and some people might want to know very urgent and important things such as the current availability in threir city or oxygen availibility.<br>
 So there is a very serious need to have one place from where you can get the information you need very quickly.
