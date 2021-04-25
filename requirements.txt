@@ -4,3 +4,5 @@ numpy==1.18.5
 requests==2.24.0
 torch==1.7.1
 beautifulsoup4==4.8.0
+bokeh==2.1.1
+PIL==7.2.0
