@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey,hope you are fine ,pleas wear your mask and stay at home",
+        "Hello there",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello there hope you are doing well,please stay at home and wear mask"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye!,and dont forget to take prcautions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+     "tag": "Covid Information",
+     "patterns": [
+        "Tell me about covid",
+        "What is Covid",
+        "what is corona",
+        "what is COVID-19"
+      ],
+      "responses": [
+        "Coronaviruses are a large family of viruses which may cause illness in animals or humans.",
+        "In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases",
+        "COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."
+
+      ]
+    },
+   {
+     "tag": "Covid Symptoms",
+     "patterns": [
+        "What are the symptoms of COVID-19?",
+        "What are the symptoms of CORONAVIRUS",
+        "corona symptoms",
+        "COVID-19 symtoms",
+        "what are the symptoms"
+      ],
+      "responses": [
+        "Some people become infected but dont develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment.Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing.Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."
+      ]
+    },
+   {
+     "tag": "Covid safety",
+     "patterns": [
+        "What can I do to protect myself and prevent the spread of disease?",
+        "How do i remain safe",
+        "Avoid Coronavirus",
+        "Covid safety",
+        "Safety",
+        "what is precaution i have to take for COVID",
+        "Preacutions from"
+      ],
+      "responses": [
+        "Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.Avoid touching eyes, nose and mouth.Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority and avoid mass gathering.If possible, avoid traveling to places  – especially if you are an older person or have diabetes, heart or lung disease.Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely).Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above)."
+      ]
+    },
+    {
+     "tag": "Covid catch",
+     "patterns": [
+        "how can i catch corona",
+        "catch CORONAVIRUS",
+        "catch COVID",
+        "catch COVID-19",
+        "how can someone pass",
+        "spread the virus",
+        "How can i get infected",
+        "Caught",
+        "Transmission of",
+        "Is it airborne",
+         "spread through air"
+      ],
+      "responses": [
+        "Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air.",
+        "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low but not impossible so please take the neccesary precaution.Many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill."
+      ]
+    },
+   {
+     "tag": "Covid bed status",
+     "patterns": [
+        "Can i have the bed status",
+        "How many beds are free in",
+        "beds",
+        "free",
+        "available beds",
+        "What is the bed status"
+      ],
+      "responses": [
+          "Select  the city name"
+        
+      ]
+    },
+   {
+     "tag": "Covid vaccination",
+     "patterns": [
+        "Is there any vaccine",
+        "Vaccination For Covid",
+        "can i get vaccinated"
+      ],
+      "responses": [
+          "Yes,you can get vaccinated with various vaccines present now,and from May 1 will be opened for all age group. please check- https://www.cowin.gov.in/home for further information and register for vaccine.They are safe and are the need of the hour."
+        
+      ]
+    },
+   {
+     "tag": "Covid Food",
+     "patterns": [
+        "Can it be spread through food",
+        "can it be spread through delievry",
+        "order food",
+        "food"
+      ],
+      "responses": [
+          "There is currently no evidence that people can catch COVID-19 from food, including fruits and vegetables. Fresh fruits and vegetables are part of a healthy diet and their consumption should be encouraged.Coronaviruses need a live animal or human host to multiply and survive and cannot multiply on the surface of food packages. It is not necessary to disinfect food packaging materials, but hands should be properly washed after handling food packages and before eating"
+        
+      ]
+    },
+   {
+     "tag": "Covid pregnency",
+     "patterns": [
+        "Are pregnant women at higher risk from COVID-19?",
+         "I'm pregnant. How can I protect myself against COVID-19?",
+        "Should pregnant women be tested for COVID-19?"
+      ],
+      "responses": [
+          "Pregnant women should take the same precautions to avoid COVID-19 infection as other people.Pregnant women and women who have recently delivered – including those affected by COVID-19 - should attend their routine care appointments. Testing protocols and eligibility vary depending on where you live."
+        
+      ]
+    },
+   {
+     "tag": "Covid Oxygen",
+     "patterns": [
+        "Are there any oxygen cyclinder?",
+         "What is the oxygen status?",
+        "Oxygen",
+        "cylinder"
+      ],
+      "responses": [
+          "Please select the city"
+        
+      ]
+    }
+  ]
+}
