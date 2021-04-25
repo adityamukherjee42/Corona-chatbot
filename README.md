@@ -44,6 +44,13 @@ We have done web scraping using beautiful soup and urllib to get the beds availi
 To run this project locally:
 Go to the directory where the project is present
 
+Write this in your Command prompt
+```
+$pip -r rquirements.txt
+
+```
+
+Then after this in the command prompt and use this command
 ```
 $ streamlit run main.py
 ```
