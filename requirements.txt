@@ -3,7 +3,4 @@ streamlit==0.78.0
 numpy==1.18.5
 requests==2.24.0
 torch==1.7.1
-json==2.0.9
-bokeh==2.1.1
-PIL==7.2.0
 beautifulsoup4==4.8.0
