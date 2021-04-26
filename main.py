@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import json
 import pickle
-
+import nltk
 import torch
 
 from model import NeuralNet
@@ -459,3 +459,4 @@ if sentence:
         col2.write("")
         col2.write("")
         col2.text_area("", value="Sorry i dont understand,please write again", height=200, max_chars=None, key=None)
+st.write("We are just providing information,we are not accountable for verification")
