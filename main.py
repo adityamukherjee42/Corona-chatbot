@@ -457,4 +457,5 @@ if sentence:
         col1.image(image, width=255)
         col2.write("")
         col2.write("")
-        col2.text_area("", value="Sorry i dont understand,please write again", height=200, max_chars=None, key=None)
+        col2.text_area("", value="Sorry i dont understand,please write again", height=200, max_chars=None, key=None) 
+st.write("We are here to only provide information,not verify them")           
