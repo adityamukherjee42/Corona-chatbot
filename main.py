@@ -65,7 +65,7 @@ if sentence:
         for intent in intents['intents']:
             if tag=='Covid bed status':
 
-                try:
+                
                     col1, col2 = st.beta_columns([1, 4])
                     if(z==0):
                         image = Image.open('Covibot-photo.png')
@@ -233,8 +233,6 @@ if sentence:
                             div = Div(text=html)
                             st.bokeh_chart(div)
 
-                except:
-                    st.write("")
 
             elif tag == 'Covid Oxygen':
                 col1, col2 = st.beta_columns([1, 4])
