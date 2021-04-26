@@ -17,6 +17,7 @@ from bokeh.models.widgets import Div
 from urllib.request import Request, urlopen
 import time
 import re
+import urllib
 from PIL import Image
 st.set_page_config(layout="wide")
 headers = {'User-Agent':
