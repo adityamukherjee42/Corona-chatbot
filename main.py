@@ -38,7 +38,9 @@ output_size = data["output_size"]
 all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
-model = NeuralNet(input_size, hidden_size, output_size).to(device)
+pickle_in = open('net.pkl', 'rb') 
+NeuralNet = torch.load('net.pkl', map_location=torch.device('cpu'))
+model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
