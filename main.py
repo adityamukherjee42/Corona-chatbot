@@ -3,6 +3,7 @@ import random
 import json
 
 import torch
+import nltk
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -19,6 +20,7 @@ import time
 import re
 import urllib
 from PIL import Image
+nltk.download('punkt')
 st.set_page_config(layout="wide")
 headers = {'User-Agent':
            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
@@ -459,4 +461,9 @@ if sentence:
         col2.write("")
         col2.write("")
         col2.text_area("", value="Sorry i dont understand,please write again", height=200, max_chars=None, key=None) 
+           
+st.write("## Demo video on how this website works")
+video_file = open('video.mp4', 'rb')
+video_bytes = video_file.read()
+st.video(video_bytes)
 st.write("We are here to only provide information,not verify them")           
