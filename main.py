@@ -462,7 +462,8 @@ if sentence:
         col2.write("")
         col2.text_area("", value="Sorry i dont understand,please write again", height=200, max_chars=None, key=None) 
            
-st.write("## Demo video on how this website works")
+
+st.markdown("<h4>Demo video on how this website works</h4>",unsafe_allow_html=True)
 video_file = open('video.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
