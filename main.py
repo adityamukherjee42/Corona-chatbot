@@ -23,7 +23,6 @@ st.set_page_config(layout="wide")
 headers = {'User-Agent':
            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 st.markdown("""<style>body {background-color: #9AE6F6;}</style>""", unsafe_allow_html=True)
 
 with open('intents.json', 'r') as json_data:
