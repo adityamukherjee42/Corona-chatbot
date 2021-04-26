@@ -46,7 +46,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Covibot"
-st.write("## Ask Covibot any Questions Related to COVID-19!")
+st.markdown("<h1>Ask Covibot any Questions Related to COVID-19!</h1>",unsafe_allow_html=True)
 z=0
 sentence =  st.text_area('You:')
 if sentence:
@@ -463,7 +463,7 @@ if sentence:
         col2.text_area("", value="Sorry i dont understand,please write again", height=200, max_chars=None, key=None) 
            
 
-st.markdown("<h1>Demo video on how this website works</h1>",unsafe_allow_html=True)
+st.markdown("<h2>Demo video on how this website works</h2>",unsafe_allow_html=True)
 video_file = open('video.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
