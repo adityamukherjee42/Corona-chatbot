@@ -74,3 +74,19 @@ Aditya Mukherjee
 
 
 <td>
+<td>
+Meet Desai
+
+<p align="center">
+<img src = "https://avatars.githubusercontent.com/MEETDESAI2509"  height="120" alt="Aditya Mukherjee">
+</p>
+<p align="center">
+<a href = "https://github.com/MEETDESAI2509"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/meet-desai-86053918b/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+<td>
