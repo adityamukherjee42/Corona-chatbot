@@ -57,6 +57,11 @@ $ streamlit run main.py
 ## Website
 https://share.streamlit.io/meetdesai2509/corona-chatbot
 
+ ## Contributors
+
+<table>
+<tr align="center">
+
 
 <td>
 Aditya Mukherjee
@@ -90,3 +95,7 @@ Meet Desai
 
 
 <td>
+	
+</table>
+</tr>
+
